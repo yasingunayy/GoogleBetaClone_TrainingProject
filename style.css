@@ -1,0 +1,54 @@
+.container {
+  width: 1200px;
+  margin: 180px auto 0px;
+}
+
+.box {
+  text-align: center;
+}
+
+main {
+  background-color: #eee;
+}
+
+nav {
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav section {
+  width: 33%;
+  height: 94%;
+  margin: 3px auto;
+  background-color: #68ccb5;
+}
+
+nav a {
+  display: block;
+  padding: 3px;
+}
+.navs h5 {
+  margin: 5px;
+}
+#search {
+  width: 400px;
+  height: 24px;
+  display: block;
+  margin: 5px auto;
+}
+
+main h3 {
+  font-size: 16px;
+  margin: 5px auto;
+}
+
+.link-element {
+  width: 30%;
+  margin: 2px auto;
+  display: inline-block;
+}
+
+#emailbox {
+  width: 76%;
+}
