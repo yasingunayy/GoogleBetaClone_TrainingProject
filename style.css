@@ -1,3 +1,4 @@
+/* İçerikleri Sayfanın Ortasında Sanal bir kutuda Toplamak için genel kodlar */
 .container {
   width: 1200px;
   margin: 180px auto 0px;
@@ -7,10 +8,24 @@
   text-align: center;
 }
 
+/* Arama Kutucuğu ve Arama Seçenekleri Butonları ile ilgili kodlar */
 main {
   background-color: #eee;
 }
 
+main h3 {
+  font-size: 16px;
+  margin: 5px auto;
+}
+
+#search {
+  width: 400px;
+  height: 24px;
+  display: block;
+  margin: 5px auto;
+}
+
+/* Linklerin ve Email Kayıt Bölümünün Konumlandırılması ve Stillendirilmesi */
 nav {
   height: 110px;
   display: flex;
@@ -28,19 +43,8 @@ nav a {
   display: block;
   padding: 3px;
 }
-.navs h5 {
+section h5 {
   margin: 5px;
-}
-#search {
-  width: 400px;
-  height: 24px;
-  display: block;
-  margin: 5px auto;
-}
-
-main h3 {
-  font-size: 16px;
-  margin: 5px auto;
 }
 
 .link-element {
